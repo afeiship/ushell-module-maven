@@ -1,0 +1,31 @@
+{
+  "name": "@jswork/ushell-module-maven",
+  "version": "1.0.0",
+  "description": "Maven for ushell.",
+  "main": "index.sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/ushell-module-maven.git"
+  },
+  "keywords": [
+    "ushell",
+    "unix",
+    "shell",
+    "ushell-module-maven"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/ushell-module-maven/issues"
+  },
+  "homepage": "https://github.com/afeiship/ushell-module-maven",
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "release-it": "^14.2.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
